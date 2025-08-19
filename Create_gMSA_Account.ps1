@@ -1,9 +1,9 @@
 # Configurable Parameters
-$domainDN = "DC=<FQDN domain>" # DN
-$domain2 = "<FQDN domain>" # FQDN
-$group = "gMSA_Group_CMO_PRD" # gMSA_Group_<Function/Name>_<ENV>
-$gmsa = "gmsa_cmo" #gmsa_<function>
-$gmsa_description = "Group Managed Service account for CMO Mitratech" # Group Managed Service Account for ...
+$domainDN = "DC=X,DC=XXX,DC=com" # DN
+$domain2 = "<subdomain>.<domain>.com" # FQDN
+$group = "gMSA_Group_<Function/Name>_<ENV>" # gMSA_Group_<Function/Name>_<ENV>
+$gmsa = "gmsa_<function>" #gmsa_<function>
+$gmsa_description = "Group Managed Service Account for ..." # Group Managed Service Account for ...
 $servers = @("<servername>","<servername>") # Servers that will need to use the gMSA account. Format: "<server>","<server>","..."
 $JIRA = "TICKET-XXXX" # JIRA or SNOW ticket number
 
